@@ -1,8 +1,8 @@
 # Template for Casks/hue-lighter.rb in the yveskaufmann/homebrew-tap repository.
 # The version and sha256 placeholders are filled in by .github/workflows/release.yaml.
 cask "hue-lighter" do
-  version "1.0.0"
-  sha256 "ae652b150dae34971dffd334ee20f0bec3be752f73cc6bc0351425f18e089a44"
+  version "1.1.0"
+  sha256 "5d0f0bce0b1ea7dbcb012fd800aa1a8abfe12c9d81ca49c59763d31d5db1f9ba"
 
   url "https://github.com/yveskaufmann/hue-lighter/releases/download/v#{version}/hue-lighter_#{version}_macos_universal.zip"
   name "Hue Lighter"
